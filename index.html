@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />  
+    <title>FlappyBird</title>
+
+    <!-- //  CSS -->
+    <link href="css/fb-reset.css" rel="stylesheet"> <!-- CSS Principal-->
+    <link href="css/fb-main.css" rel="stylesheet"> <!-- Reset z-->
+    
+  </head>
+<body>
+    <!-- // HTML5-->
+    <main id="main-game"> <!-- Pagina principal HTML -->
+      <section id="screen-game"> <!-- Aréa do jogo -->
+        <section id="background-game" class="animated"> <!-- Plano de fundo do jogo -->
+          <section id="flyarea-game"> <!-- Delimita a área do pĺayer -->
+            <div id="ceiling" class="animated"></div> <!-- Blocos/Parede do jogo que fica no topo -->
+            <div id="player" class="bird animated"></div> <!-- Sprite do player -->
+            <div id="bigscore"></div> <!-- Placar/Score do player-->
+            <div id="splash"></div> <!-- Tela Inicial-->
+            <div id="scoreboard">  <!-- Quadro de pontuação -->
+              <div id="medal"></div> <!-- Medalha obtida de acordo com a pontuação -->
+              <div id="currentscore"></div> <!-- Pontuação atual -->
+              <div id="highscore"></div> <!-- Retorna a maior pontuação no jogo -->
+              <div id="replay"><img src="assets/replay.png"  alt="replay" /></div> <!-- Opção de recomeçar o jogo -->
+            </div>
+            <!-- Pipes/Canos - Irão aparecer por meio de uma array -->
+          </section>
+
+        </section>
+
+      <section id="footer-game" class="animated"></section> <!-- Rodapé do jogo -->
+
+      </section>
+
+    </main>
+
+    <!-- // JS E API's-->
+
+    <script src="js/fb-jquery.min.js"></script>
+    <script src="js/fb-jquery.transit.min.js"></script>
+    <script src="js/fb-buzz.min.js"></script> <!-- Áudio do jogo -->
+    <script src="js/fb-main.js"></script> <!-- Lógica do jogo-->
+
+</body>
+</html>
