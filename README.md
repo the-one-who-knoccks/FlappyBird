@@ -1,4 +1,4 @@
-# Recriação do game Flappy Bird, usando JavaScript, html5 e css.
+# Recriação do game Flappy Bird usando JavaScript, html5 e css.
 
 <img src="preview/prev01.png">
 </br>
@@ -11,3 +11,5 @@
 
 <img src="preview/prev04.png">
 </br>
+
+Creditos e agradecimento: Ferreira Studios
